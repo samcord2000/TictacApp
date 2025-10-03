@@ -12,10 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TicTacApp">
         <activity
-            android:name=".ResultsActivity"
-            android:exported="false" />
-        <activity
             android:name=".GameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_game"
+            android:theme="@style/Theme.TicTacApp" />
+        <activity
+            android:name=".ResultsActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

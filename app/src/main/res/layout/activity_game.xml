@@ -5,7 +5,8 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primary"
+    android:alpha="0.7"
+    android:background="@drawable/fondo_naruto"
     android:orientation="vertical"
     tools:context=".GameActivity">
 
@@ -23,10 +24,10 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/tvPlayer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Player1"
+                android:text="Player 1"
                 android:textAlignment="center"
                 android:textColor="@color/primary"
                 android:textSize="24sp"
@@ -39,7 +40,7 @@
                 app:srcCompat="@drawable/icon_close_24" />
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/tvScorePlayer1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0"
@@ -56,10 +57,10 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvPlayer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Player2"
+                android:text="Player 2"
                 android:textAlignment="center"
                 android:textColor="@color/primary"
                 android:textSize="24sp"
@@ -72,13 +73,12 @@
                 app:srcCompat="@drawable/icon_circle_24" />
 
             <TextView
-                android:id="@+id/textView6"
+                android:id="@+id/tvScorePlayer2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="0"
                 android:textAlignment="center"
                 android:textSize="34sp" />
-
         </LinearLayout>
     </LinearLayout>
 
@@ -96,36 +96,39 @@
 
             <Button
                 android:id="@+id/b1"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b2"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b3"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -136,36 +139,39 @@
 
             <Button
                 android:id="@+id/b4"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b5"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b6"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <LinearLayout
@@ -176,46 +182,51 @@
 
             <Button
                 android:id="@+id/b7"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b8"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
 
             <Button
                 android:id="@+id/b9"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/white"
                 android:onClick="play"
                 android:textColor="@color/primary"
-                android:textSize="60sp" />
+                android:textSize="60sp"
+                android:textStyle="bold" />
         </LinearLayout>
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/button6"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:layout_margin="20dp"
             android:backgroundTint="@color/white"
-            android:text="REINICIAR JUEGO"
+            android:onClick="nuevaPartida"
+            android:text="Nueva Partida"
             android:textColor="@color/primary"
-            android:textSize="30sp" />
+            android:textSize="34sp"
+            android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>
